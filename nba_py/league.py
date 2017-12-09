@@ -385,6 +385,8 @@ class GameLog:
                  counter=constants.Counter.Default,
                  sorter=constants.Sorter.Default,
                  direction=constants.Direction.Default,
+                 date_from=constants.DateFrom.Default,
+                 date_to=constants.DateTo.Default
                  ):
 
         self.json = _get_json(endpoint=self._endpoint,
@@ -394,7 +396,9 @@ class GameLog:
                                       'PlayerOrTeam': player_or_team,
                                       'Counter': counter,
                                       'Sorter': sorter,
-                                      'Direction': direction
+                                      'Direction': direction,
+                                      'DateFrom': date_from,
+                                      'DateTo': date_to
                                       })
 
     def overall(self):

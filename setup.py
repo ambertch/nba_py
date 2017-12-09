@@ -23,7 +23,7 @@ setup(
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
     # https://packaging.python.org/en/latest/single_source_version.html
-    version='0.1.1a2',
+    version='0.1.2',
 
     description='A python facing API for stats.nba.com',
     long_description=long_description,
@@ -32,8 +32,8 @@ setup(
     url='https://github.com/seemethere/nba_py',
 
     # Author details
-    author='seemethere',
-    author_email='seemethere101@gmail.com',
+    author='seemethere, ambertch',
+    author_email='seemethere101@gmail.com, ambertch@gmail.com',
 
     # Choose your license
     license='BSD 3-clause "New" or "Revised License"',
